@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.container-fluid{
+  width: 100vw;
+  height: 10vh;
+  margin-top: 5vh;
+  background-color: black;
+}
+.center{
+  width: 80%;
+  height: 10vh;
+  margin-top: 5vh;
+  background-color: black;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.text{
+  margin: auto;
+  font-size: 4em;
+  font-family: 'Poppins';
+  font-weight: 900;
+  height: 100%;
+
+}
+.profile{
+  margin-right: 10vw;
+
+}
+.row{
+  margin-top: 15vh;
+  margin: 15vh;
+}
+button{
+  height: 60vh;
+}
+#valorant{
+  background-image: url("valorant.jpg");
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#valorant:hover{
+ opacity: 1;
+}
+.card{
+  width: 40%;
+  margin: auto;
+  padding: 20px 20px;
+  border: white;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Poppins';
+  font-size: 900;
+}
+#COD{
+  background-image: url("COD.jpg");
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#COD:hover{
+ opacity: 1;
+}
+.card{
+  width: 30%;
+  margin: auto;
+  padding: 20px 20px;
+  border: white;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Poppins';
+  font-size: 900;
+}
+#chess{
+  background-image: url("chess.jpg");
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#chess:hover{
+ opacity: 1;
+}
+.card{
+  width: 30%;
+  margin: auto;
+  padding: 20px 20px;
+  border: white;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Poppins';
+  font-size: 900;
+}
